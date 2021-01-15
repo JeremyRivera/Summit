@@ -1,36 +1,31 @@
-.question-link:visited{
-  color: #ffffff;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-a:link {
-  color: #61bff9;
-}
-
-a:visited {
-  color: #466995;
-}
-
-a:hover { 
+a:hover {
+  color: gold;
   text-decoration: none;
 }
-
-a:active, .question-link:active {
-  color:#DBE9EE;
+.nav-link {
+  text-decoration: none;
+  margin: 2px;
 }
-
-.answer {
-  color: #61bff9;
-  border: 1px solid #466995;
+.nav-link:hover{
+  color: #549ff;
+}
+.btn {
+  background-color: #2176FF;
+  border-radius: 10px;
+  font-family: Raleway;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  border: 3px solid black;
+}
+.btn:hover {
+  background-color: #2176FF ;
+}
+.activity {
+  border-radius: 22px;
+  border: 3px solid black;
   cursor: pointer;
   text-decoration: none;
-}
-
-.answer:active {
-  background-color: #C0D6DF;
-  color: #ffffff;
 }
